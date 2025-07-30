@@ -29,8 +29,8 @@ The **Streamlit app** allows you to interactively select a team and teammate and
 
 📸 Power BI Dashboard Preview
 
+<img width="1276" height="796" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/cb68bf2d-c3f2-4236-b7f1-ea5d9426d092" />
 
-<img width="1920" height="1080" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/30306371-7f73-4fee-bbd2-b1db8dd0b21b" />
 
 📈 Score Calculation
 Team Score: Based on constructor’s points, wins, DNFs
