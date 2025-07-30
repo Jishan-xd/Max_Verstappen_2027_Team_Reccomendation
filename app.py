@@ -17,7 +17,7 @@ df = pd.read_csv("max_verstappen_2027_team_prediction.csv")
 st.sidebar.title("🏎️ F1 2027 - Max Verstappen Predictor")
 
 # About Section
-st.sidebar.subheader("📘 About This Dashboard")
+st.sidebar.subheader(" About This Dashboard")
 st.sidebar.markdown("""
 This dashboard helps predict the **best possible F1 team and teammate** for **Max Verstappen** in the 2027 season.
 
@@ -34,7 +34,7 @@ selected_row = filtered_df[filtered_df['teammate'] == teammate].iloc[0]
 st.sidebar.markdown("---")
 if st.sidebar.button(" Dashboard"):
     st.session_state.page = "dashboard"
-if st.sidebar.button("ℹ About"):
+if st.sidebar.button("Details"):
     st.session_state.page = "about"
 
 # ---------- ABOUT PAGE ----------
@@ -84,7 +84,7 @@ elif st.session_state.page == "dashboard":
         st.markdown("---")
 
     # --- Visual Preview: Team Image + Gauge + Teammate Image ---
-    st.subheader("🧑‍🤝‍🧑 Visual Preview + Fit Score")
+    st.subheader("Visual Preview + Fit Score")
     col_img1, col_gauge, col_img2 = st.columns([1, 2, 1])
 
     with col_img1:
@@ -118,7 +118,7 @@ elif st.session_state.page == "dashboard":
 
     with col_img2:
         st.image(selected_row['driver_image_url'], width=200)
-        st.caption(f"👨‍✈️ Teammate: {selected_row['teammate'].title()}")
+        st.caption(f" Teammate: {selected_row['teammate'].title()}")
 
     st.markdown("---")
 
