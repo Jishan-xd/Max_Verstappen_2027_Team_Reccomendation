@@ -1,4 +1,4 @@
-# 🏎️ Max Verstappen 2027 Team Recommendation Dashboard
+# Sports-Performance-Analytics-Engine
 
 This project predicts the **best team and teammate combination** for **Max Verstappen** in the 2027 F1 season using **data-driven analysis** and **interactive dashboards**.
 
@@ -77,3 +77,4 @@ Includes:
 ---
 
 --Made by Jishan Ansari--
+
